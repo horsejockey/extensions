@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C95510461E5282C7006C776F /* Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C95510441E5282C7006C776F /* Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C955104D1E5282EF006C776F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C955104C1E5282EF006C776F /* Extensions.swift */; };
+		C95510631E535E2B006C776F /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95510621E535E2B006C776F /* DateExtensions.swift */; };
+		C95510641E535E7E006C776F /* Extensions.swift in Headers */ = {isa = PBXBuildFile; fileRef = C955104C1E5282EF006C776F /* Extensions.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		C95510651E535E7E006C776F /* DateExtensions.swift in Headers */ = {isa = PBXBuildFile; fileRef = C95510621E535E2B006C776F /* DateExtensions.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +19,7 @@
 		C95510441E5282C7006C776F /* Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
 		C95510451E5282C7006C776F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C955104C1E5282EF006C776F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C95510621E535E2B006C776F /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 				C95510441E5282C7006C776F /* Extensions.h */,
 				C95510451E5282C7006C776F /* Info.plist */,
 				C955104C1E5282EF006C776F /* Extensions.swift */,
+				C95510621E535E2B006C776F /* DateExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -63,6 +68,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C95510461E5282C7006C776F /* Extensions.h in Headers */,
+				C95510641E535E7E006C776F /* Extensions.swift in Headers */,
+				C95510651E535E7E006C776F /* DateExtensions.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C955104D1E5282EF006C776F /* Extensions.swift in Sources */,
+				C95510631E535E2B006C776F /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

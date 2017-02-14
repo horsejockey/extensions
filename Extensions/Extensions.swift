@@ -323,3 +323,22 @@ public extension UIView {
     
 }
 
+
+protocol PresentedViewDelegate: class {
+    func presentedViewWillDismiss()
+    func presentedViewDidDismiss()
+}
+protocol PresentedViewProtocol {
+    weak var delegate: PresentedViewDelegate? { get set }
+    func dismissMyself()
+}
+
+extension PresentedViewProtocol where Self: UIViewController {
+    func dismissMyself() {
+        self.delegate?.presentedViewWillDismiss()
+        self.dismiss(animated: true, completion: { _ in
+            self.delegate?.presentedViewDidDismiss()
+        })
+    }
+}
+
